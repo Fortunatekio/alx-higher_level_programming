@@ -4,7 +4,7 @@
 
 if __name__ == '__main__':
 
-    import MySQLdb
+    import mysql.connector
     import sys
 
     db = MySQLdb.connect(host='localhost', port=3306,
